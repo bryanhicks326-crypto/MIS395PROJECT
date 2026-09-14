@@ -1,0 +1,6 @@
+{
+  "name": "Maddow Modular",
+  "description": "Precision modular construction company based in Chicago with an office in Philadelphia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
