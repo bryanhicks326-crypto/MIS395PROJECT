@@ -5,25 +5,25 @@ const projects = [
     id: 1,
     title: 'Tech Hub Office Park',
     category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1429497419816-9ca5cb7b5736?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/techhub.svg'
   },
   {
     id: 2,
     title: 'Eco-Living Complex',
     category: 'Multi-Family',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/philadelphia.svg'
   },
   {
     id: 3,
     title: 'Precision Assembly Line',
     category: 'Manufacturing',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/factory.svg'
   },
   {
     id: 4,
     title: 'Urban Retail Pavilion',
     category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop'
+    image: '/images/retail.svg'
   }
 ];
 
@@ -45,7 +45,7 @@ export default function Gallery() {
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: '-100px' }}
               transition={{ delay: idx * 0.15, duration: 0.6 }}
               className="group relative h-[400px] overflow-hidden rounded-sm bg-slate-100"
             >
