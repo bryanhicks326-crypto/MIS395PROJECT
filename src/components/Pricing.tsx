@@ -3,19 +3,19 @@ import { ArrowRight, Check } from 'lucide-react';
 const plans = [
   {
     name: 'Discovery',
-    summary: 'For early feasibility, scope definition, and premium planning guidance.',
-    features: ['Concept review', 'Initial feasibility study', 'Budget and timeline alignment'],
+    summary: 'For early feasibility, scope definition, and strategic project planning.',
+    features: ['Program review', 'Site and feasibility analysis', 'Budget alignment strategy'],
   },
   {
     name: 'Project Delivery',
-    summary: 'A full-service modular partner from engineering through installation.',
-    features: ['Custom design and fabrication', 'Factory production oversight', 'Site logistics and install coordination'],
+    summary: 'A complete modular solution from design development to final installation.',
+    features: ['Custom engineering', 'Factory fabrication oversight', 'Install coordination and logistics'],
     featured: true,
   },
   {
     name: 'Portfolio Rollout',
-    summary: 'Built for repeatable multi-site expansion and multi-unit programs.',
-    features: ['Standardized delivery systems', 'Program-wide coordination', 'Scalable phased installation'],
+    summary: 'Built for larger, phased growth and multi-location development programs.',
+    features: ['Standardized systems', 'Program-wide coordination', 'Scalable deployment planning'],
   },
 ];
 
@@ -24,12 +24,12 @@ export default function Pricing() {
     <section id="pricing" className="bg-[#171717] py-24 text-stone-100">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto mb-16 max-w-3xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#d7b27a]">Pricing approach</p>
-          <h2 className="text-4xl font-light tracking-[-0.05em] text-white md:text-5xl">
-            Tailored delivery pathways for exceptional outcomes.
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-[#d2ac74]">Pricing approach</p>
+          <h2 className="text-4xl font-light tracking-[-0.06em] text-white md:text-5xl">
+            Tailored pathways for beautifully efficient delivery.
           </h2>
           <p className="mt-5 text-lg text-stone-300">
-            Every engagement is structured around your timeline, site conditions, and standards for quality so the process remains elegant and efficient.
+            We align scope, schedule, and delivery strategy to create a sharper experience from concept through completion.
           </p>
         </div>
 
@@ -39,8 +39,8 @@ export default function Pricing() {
               key={plan.name}
               className={`rounded-sm border p-8 ${
                 plan.featured
-                  ? 'border-[#d7b27a] bg-[#d7b27a] text-[#171717] shadow-[0_25px_60px_rgba(215,178,122,0.25)]'
-                  : 'border-white/10 bg-white/5 text-stone-100'
+                  ? 'border-[#d2ac74] bg-[#d2ac74] text-[#171717] shadow-[0_25px_60px_rgba(210,172,116,0.22)]'
+                  : 'border-white/10 bg-white/3 text-stone-100'
               }`}
             >
               <div className="flex items-center justify-between gap-3">
@@ -52,20 +52,20 @@ export default function Pricing() {
                 )}
               </div>
 
-              <p className={`mt-4 min-h-16 leading-relaxed ${plan.featured ? 'text-[#2b2b2b]' : 'text-stone-300'}`}>
+              <p className={`mt-4 min-h-16 leading-relaxed ${plan.featured ? 'text-[#262626]' : 'text-stone-300'}`}>
                 {plan.summary}
               </p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check className={`mt-0.5 h-4 w-4 shrink-0 ${plan.featured ? 'text-[#171717]' : 'text-[#d7b27a]'}`} />
+                    <Check className={`mt-0.5 h-4 w-4 shrink-0 ${plan.featured ? 'text-[#171717]' : 'text-[#d2ac74]'}`} />
                     <span>{feature}</span>
                   </li>
                 ))}
               </ul>
 
-              <a href="#contact" className={`mt-10 inline-flex items-center gap-2 text-sm font-semibold ${plan.featured ? 'text-[#171717]' : 'text-[#f7e7cd]'}`}>
+              <a href="#contact" className={`mt-10 inline-flex items-center gap-2 text-sm font-semibold ${plan.featured ? 'text-[#171717]' : 'text-[#f6debb]'}`}>
                 Discuss your project
                 <ArrowRight className="h-4 w-4" />
               </a>

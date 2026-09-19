@@ -16,11 +16,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-[#e7dcc8] bg-[#121212]/80 backdrop-blur-md">
+    <nav className="sticky top-0 z-50 border-b border-[#e9dcc4] bg-[#111111]/80 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <div className="rounded-sm bg-[#d7b27a] p-2 shadow-[0_8px_24px_rgba(215,178,122,0.25)]">
+            <div className="rounded-sm bg-[#d2ac74] p-2 shadow-[0_8px_24px_rgba(210,172,116,0.2)]">
               <Building2 className="h-5 w-5 text-[#171717]" />
             </div>
             <span className="text-lg font-semibold uppercase tracking-[0.22em] text-stone-100">Maddow</span>
@@ -28,7 +28,7 @@ export default function Navbar() {
 
           <div className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (
-              <a key={item.label} href={item.href} className="text-sm font-medium text-stone-300 transition-colors hover:text-[#f1d7ae]">
+              <a key={item.label} href={item.href} className="text-sm font-medium text-stone-300 transition-colors hover:text-[#f1d7af]">
                 {item.label}
               </a>
             ))}
@@ -48,7 +48,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="overflow-hidden border-t border-white/10 bg-[#121212] md:hidden"
+            className="overflow-hidden border-t border-white/10 bg-[#111111] md:hidden"
           >
             <div className="flex flex-col gap-4 px-6 py-4">
               {navItems.map((item) => (
@@ -56,7 +56,7 @@ export default function Navbar() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-sm font-medium text-stone-300 transition-colors hover:text-[#f1d7ae]"
+                  className="text-sm font-medium text-stone-300 transition-colors hover:text-[#f1d7af]"
                 >
                   {item.label}
                 </a>
