@@ -3,21 +3,21 @@ import { motion } from 'motion/react';
 const values = [
   {
     title: 'Measured precision',
-    description: 'Every module is engineered and reviewed in a controlled environment to ensure consistent performance and refined detail.',
+    description: 'Every module is engineered and quality-reviewed in a controlled environment to ensure refined detail and long-term performance.',
   },
   {
     title: 'Flexible by design',
-    description: 'Our systems adapt elegantly across residential, commercial, hospitality, and specialty-use developments.',
+    description: 'Our systems adapt elegantly across hospitality, residential, commercial, and specialty-use developments.',
   },
   {
     title: 'Built for momentum',
-    description: 'From planning to installation, we help teams move with clarity, speed, and confidence.',
+    description: 'From planning through installation, we help teams move with clarity, speed, and confidence.',
   },
 ];
 
 export default function About() {
   return (
-    <section id="about" className="bg-[#f6f1ea] py-24 text-stone-800">
+    <section id="about" className="bg-[#f5f1ea] py-24 text-stone-800">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.9fr_1.5fr] lg:px-8">
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-[#8c6948]">About us</p>
@@ -28,7 +28,7 @@ export default function About() {
 
         <div>
           <p className="text-lg leading-relaxed text-stone-700">
-            Maddow Modular brings together disciplined manufacturing, architectural restraint, and high-touch project management to create buildings that are durable, intentional, and sharply efficient. Based in Chicago with a regional office in Philadelphia, we serve teams that value clarity, quality, and a quieter kind of luxury.
+            Maddow Modular brings together disciplined manufacturing, architectural restraint, and high-touch project management to create spaces that are durable, intentional, and sharply efficient. Based in Chicago with a regional office in Philadelphia, we serve teams that value clarity, quality, and a more elegant form of industrial build delivery.
           </p>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
