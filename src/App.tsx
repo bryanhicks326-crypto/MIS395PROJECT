@@ -8,7 +8,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
-import Hero from './components/Hero';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Locations from './components/Locations';
@@ -24,7 +23,6 @@ export default function App() {
         <About />
         <Pricing />
         <Testimonials />
-        <Hero />
         <Services />
         <Gallery />
         <Locations />
