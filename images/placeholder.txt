@@ -1,2 +1,4 @@
-techhub.jpg
-philadelphia.jpg
+MIS395PROJECT/images/techhub.jpg
+MIS395PROJECT/images/philadelphia.jpg
+
+
