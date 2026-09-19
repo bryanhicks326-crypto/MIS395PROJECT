@@ -1,10 +1,30 @@
 import { motion } from 'motion/react';
 
 const projects = [
-  { id: 1, title: 'Tech Hub Office Park', category: 'Commercial', image: '/images/techhub.svg' },
-  { id: 2, title: 'Eco-Living Complex', category: 'Multi-Family', image: '/images/philadelphia.svg' },
-  { id: 3, title: 'Precision Assembly Line', category: 'Manufacturing', image: '/images/factory.svg' },
-  { id: 4, title: 'Urban Retail Pavilion', category: 'Commercial', image: '/images/retail.svg' }
+  {
+    id: 1,
+    title: 'Tech Hub Office Park',
+    category: 'Commercial',
+    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2070&auto=format&fit=crop'
+  },
+  {
+    id: 2,
+    title: 'Philadelphia Office',
+    category: 'Office',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop'
+  },
+  {
+    id: 3,
+    title: 'Precision Assembly Line',
+    category: 'Manufacturing',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop'
+  },
+  {
+    id: 4,
+    title: 'Urban Retail Pavilion',
+    category: 'Commercial',
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069&auto=format&fit=crop'
+  }
 ];
 
 export default function Gallery() {
