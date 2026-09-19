@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Tech Hub Office Park</title>
+  <desc id="desc">A simple permanent placeholder illustration of a modern office building.</desc>
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9d9e8"/><stop offset="1" stop-color="#eef5f7"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect y="610" width="1200" height="190" fill="#52616b"/>
+  <rect x="170" y="230" width="860" height="390" rx="8" fill="#d8e1e5" stroke="#263640" stroke-width="12"/>
+  <rect x="230" y="290" width="150" height="110" fill="#5b91a8"/><rect x="430" y="290" width="150" height="110" fill="#5b91a8"/><rect x="630" y="290" width="150" height="110" fill="#5b91a8"/><rect x="830" y="290" width="150" height="110" fill="#5b91a8"/>
+  <rect x="230" y="450" width="150" height="110" fill="#5b91a8"/><rect x="430" y="450" width="150" height="110" fill="#5b91a8"/><rect x="630" y="450" width="150" height="110" fill="#5b91a8"/><rect x="830" y="450" width="150" height="110" fill="#5b91a8"/>
+</svg>
