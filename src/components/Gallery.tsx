@@ -5,25 +5,25 @@ const projects = [
     id: 1,
     title: 'Tech Hub Office Park',
     category: 'Commercial',
-    image: '/images/techhub.svg'
+    image: 'https://images.unsplash.com/photo-1429497419816-9ca5cb7b5736?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'Eco-Living Complex',
     category: 'Multi-Family',
-    image: '/images/philadelphia.svg'
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'Precision Assembly Line',
     category: 'Manufacturing',
-    image: '/images/factory.svg'
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'Urban Retail Pavilion',
     category: 'Commercial',
-    image: '/images/retail.svg'
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop'
   }
 ];
 
