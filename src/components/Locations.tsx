@@ -14,7 +14,7 @@ const locations = [
     type: 'Regional Office',
     address: '1701 John F Kennedy Blvd, Philadelphia, PA 19103',
     phone: '(316) 895-3463',
-    image: 'https://images.unsplash.com/photo-1605810712140-5a3962b1a62d?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/philadelphia-skyline.jpg'
   }
 ];
 
