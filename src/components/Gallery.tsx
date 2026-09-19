@@ -11,7 +11,7 @@ const projects = [
     id: 2,
     title: 'Philadelphia Office',
     category: 'Office',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Philadelphia_skyline_from_South_Street_Bridge_March_2016_panorama_1.jpg'
+    image: '/images/philadelphia-center-city.jpg'
   },
   {
     id: 3,

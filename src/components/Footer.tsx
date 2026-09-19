@@ -35,6 +35,36 @@ export default function Footer() {
           <p className="text-xs text-slate-600">
             This is not a real commercial website but a part of MIS 395 class requirements at Wichita State University.
           </p>
+          <p className="text-xs text-slate-600">
+            Philadelphia photography:{' '}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_panorama.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-400 transition-colors underline underline-offset-2"
+            >
+              Pierre Blaché
+            </a>
+            {' '}(CC0) and{' '}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Center_City_Philadelphia_2018_02.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-400 transition-colors underline underline-offset-2"
+            >
+              Peetlesnumber1
+            </a>
+            {' '}(
+            <a
+              href="https://creativecommons.org/licenses/by-sa/4.0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-400 transition-colors underline underline-offset-2"
+            >
+              CC BY-SA 4.0
+            </a>
+            ), via Wikimedia Commons.
+          </p>
         </div>
         <div className="flex gap-6">
           <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
